@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d698df5af4ce3a54a8fd0c968e397f65, type: 3}
+  m_Name: GameConfig1
+  m_EditorClassIdentifier: 
+  PlayerMovementSpeed: 5
+  PlayerShootTimeOut: 0
+  EnemySpawnRate: 0
+  BulletAcceleration: 0
+  PlayerPrefab: {fileID: 0}
+  EnemyPrefab: {fileID: 0}
+  PlayerSpawn: {fileID: 0}
+  EnemySpawn: []

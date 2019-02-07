@@ -63,23 +63,24 @@
     <Compile Include="Assets\BaseAmmunition.cs" />
     <Compile Include="Assets\BaseCharacterController.cs" />
     <Compile Include="Assets\BaseObjScene.cs" />
-    <Compile Include="Assets\BaseWeapon.cs" />
-    <Compile Include="Assets\Canon.cs" />
     <Compile Include="Assets\EnemyController.cs" />
+    <Compile Include="Assets\EnemyFabric.cs" />
     <Compile Include="Assets\GameConfig.cs" />
     <Compile Include="Assets\GameController.cs" />
     <Compile Include="Assets\GameInstaller.cs" />
     <Compile Include="Assets\IDamageble.cs" />
-    <Compile Include="Assets\IInit.cs" />
+    <Compile Include="Assets\IFire.cs" />
     <Compile Include="Assets\IMoveble.cs" />
     <Compile Include="Assets\InputController.cs" />
-    <Compile Include="Assets\IPhysics.cs" />
+    <Compile Include="Assets\LoadManager.cs" />
+    <Compile Include="Assets\OnPlayerDead.cs" />
     <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\PlayerFabric.cs" />
     <Compile Include="Assets\Rocket.cs" />
+    <Compile Include="Assets\RocketFactory.cs" />
     <Compile Include="Assets\SOInstaller.cs" />
-    <Compile Include="Assets\UIController.cs" />
-    <Compile Include="Assets\UnitsPositionController.cs" />
-    <Compile Include="Assets\WeaponController.cs" />
+    <Compile Include="Assets\SpawnController.cs" />
+    <Compile Include="Assets\UiManager.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>Z:/Work/_Unity/2DSideScroller/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

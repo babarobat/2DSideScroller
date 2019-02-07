@@ -1,5 +1,4 @@
-﻿using Zenject;
-using UnityEngine;
+﻿using UnityEngine;
 
  class InputController:MonoBehaviour  {
     
@@ -8,23 +7,56 @@ using UnityEngine;
     /// Принимает значение -1,0,1;
     /// </summary>
 	public float Horizontal { get; private set; }
-    
-    
+    /// <summary>
+    /// Получать команды управления из кнопок UI
+    /// </summary>
+    private bool _controlFormButtons;
+    /// <summary>
+    /// Стрелять?
+    /// </summary>
     public bool Fire { get; private set; }
 
     private void Update()
     {
-        
-        Horizontal = Input.GetAxisRaw("Horizontal");
+        if (!_controlFormButtons)
+        {
+            Fire = Input.GetKeyDown(KeyCode.Space);
+            Horizontal = Input.GetAxisRaw("Horizontal");
+        }
     }
+    /// <summary>
+    /// назначить значение по ос Horizontal
+    /// </summary>
+    /// <param name="value"></param>
     public void SetHorRaw(float value)
     {
-        Horizontal = value < 0 ? -1 : value > 0 ? 1 : 0;
-        Fire = Input.GetKeyDown(KeyCode.Space); 
+        if (value != 0)
+        {
+            _controlFormButtons = true;
+            Horizontal = value;
+        }
+        else
+        {
+            _controlFormButtons = false;
+        }   
     }
+    /// <summary>
+    /// Стрелять?
+    /// </summary>
+    /// <param name="value"></param>
     public void SetFire(bool value)
     {
-        Fire = value;
+        if (value)
+        {
+            _controlFormButtons = true;
+            Fire = value;
+        }
+        else
+        {
+            _controlFormButtons = false;
+
+        }
+        
     }
     
 }

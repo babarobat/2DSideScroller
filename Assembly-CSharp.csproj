@@ -60,27 +60,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BaseAmmunition.cs" />
-    <Compile Include="Assets\BaseCharacterController.cs" />
-    <Compile Include="Assets\BaseObjScene.cs" />
-    <Compile Include="Assets\EnemyController.cs" />
-    <Compile Include="Assets\EnemyFabric.cs" />
-    <Compile Include="Assets\GameConfig.cs" />
-    <Compile Include="Assets\GameController.cs" />
-    <Compile Include="Assets\GameInstaller.cs" />
-    <Compile Include="Assets\IDamageble.cs" />
-    <Compile Include="Assets\IFire.cs" />
-    <Compile Include="Assets\IMoveble.cs" />
-    <Compile Include="Assets\InputController.cs" />
-    <Compile Include="Assets\LoadManager.cs" />
-    <Compile Include="Assets\OnPlayerDead.cs" />
-    <Compile Include="Assets\PlayerController.cs" />
-    <Compile Include="Assets\PlayerFabric.cs" />
-    <Compile Include="Assets\Rocket.cs" />
-    <Compile Include="Assets\RocketFactory.cs" />
-    <Compile Include="Assets\SOInstaller.cs" />
-    <Compile Include="Assets\SpawnController.cs" />
-    <Compile Include="Assets\UiManager.cs" />
+    <Compile Include="Assets\Scripts\BaseAmmunition.cs" />
+    <Compile Include="Assets\Scripts\BaseCharacterController.cs" />
+    <Compile Include="Assets\Scripts\BaseObjScene.cs" />
+    <Compile Include="Assets\Scripts\EnemyController.cs" />
+    <Compile Include="Assets\Scripts\EnemyFabric.cs" />
+    <Compile Include="Assets\Scripts\GameConfig.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\GameInstaller.cs" />
+    <Compile Include="Assets\Scripts\InputController.cs" />
+    <Compile Include="Assets\Scripts\Interfaces\IDamageble.cs" />
+    <Compile Include="Assets\Scripts\Interfaces\IFire.cs" />
+    <Compile Include="Assets\Scripts\Interfaces\IMoveble.cs" />
+    <Compile Include="Assets\Scripts\LoadManager.cs" />
+    <Compile Include="Assets\Scripts\OnPlayerDead.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\PlayerFabric.cs" />
+    <Compile Include="Assets\Scripts\Rocket.cs" />
+    <Compile Include="Assets\Scripts\RocketFactory.cs" />
+    <Compile Include="Assets\Scripts\SOInstaller.cs" />
+    <Compile Include="Assets\Scripts\SpawnController.cs" />
+    <Compile Include="Assets\Scripts\UiManager.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>Z:/Work/_Unity/2DSideScroller/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
